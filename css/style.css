@@ -110,6 +110,19 @@ body {
     color: #48555B;
     font-weight: bold;
     margin-bottom: 60px;
+    position: relative;
+}
+.section_title:before{
+    content: '';
+    position: absolute;
+    width:50px;
+    height: 5px;
+    border-bottom: 2px solid #00A4E5;
+    color: red;
+    right: 0;
+    left: 0;
+    margin: auto;
+    top: 30px;
 }
 
 .story {
@@ -226,7 +239,19 @@ body {
     font-size: 18px;
     line-height: 25px;
     letter-spacing: 2.30625px;
+    position: relative;
+}
+.subtitle:before{
+    content: '';
+    position: absolute;
+    width:50px;
+    height: 5px;
+    border-bottom: 2px solid #00A4E5;
+    color: red;
 
+    left: 0;
+
+    top: 50px;
 }
 
 .btn {
@@ -370,6 +395,11 @@ body {
     max-width: 141px;
 
 }
+
+
+
+
+
 .bottom{
     background: #171819;
     text-align: center;

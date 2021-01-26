@@ -171,6 +171,18 @@
     .col_4 {
         width: 100%;
     }
+    .subtitle:before {
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        border-bottom: 2px solid #00A4E5;
+        color: red;
+
+        left: 0;
+
+        top: 30px;
+    }
 
     .part {
         display: flex;
