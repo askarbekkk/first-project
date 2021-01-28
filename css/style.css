@@ -230,7 +230,6 @@ body {
     font-size: 11px;
     line-height: 19px;
     letter-spacing: 0.2px;
-    padding-right: 58px;
 
 }
 
@@ -248,9 +247,7 @@ body {
     height: 5px;
     border-bottom: 2px solid #00A4E5;
     color: red;
-
     left: 0;
-
     top: 50px;
 }
 
