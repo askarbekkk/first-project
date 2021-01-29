@@ -66,6 +66,9 @@
     .container {
         max-width: 740px;
     }
+    /*.newsletter.container{*/
+    /*   margin: 0 auto;*/
+    /*}*/
     .section_title {
         font-size: 27px;
         line-height: 25px;
@@ -124,6 +127,10 @@
     .capabilities_item {
         display: flex;
         margin-left: 25px;
+    }
+    . .newsletter_caption{
+        padding: 15px 0;
+        text-align: center;
     }
     .service_item_title {
         text-transform: uppercase;
@@ -193,7 +200,7 @@
         top: 30px;
     }
 
-    .part {
+    .company_info {
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -310,7 +317,10 @@
     .service_item_title {
 
     }
-
+    .newsletter_caption{
+        padding: 15px 0;
+        text-align: center;
+    }
     .footer_list_item {
         font-size: 12px;
     }
